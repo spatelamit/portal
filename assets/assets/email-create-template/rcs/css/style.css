@@ -1,0 +1,93 @@
+html,body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  padding: 1px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  color: #333333;
+}
+
+#chart-container {
+  position: relative;
+  border: 1px solid #aaa;
+  margin: 0.5rem;
+  overflow: auto;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #chart-container { height: 500px; }
+    .orgchart.edit-state .edge { display: none; }
+    .orgchart .node .title { height: 30px; line-height: 30px; }
+    #edit-panel { margin: 0.5rem; padding: 15px; }
+    #edit-panel .btn-inputs { width: 2rem; padding: 0; font-size: 1.5rem; }
+    #edit-panel .btn-inputs { vertical-align: sub; }
+    #edit-panel.edit-parent-node .btn-inputs { display: none; }
+    #edit-panel.edit-state>:not(#chart-state-panel) { display: none; }
+    #edit-panel.edit-parent-node .selected-node-group { display: none; }
+    #chart-state-panel, #selected-node, #btn-remove-input { margin-right: 1rem; }
+    #edit-panel button, #edit-panel input { padding: 0.5rem 1rem; font-size: 1rem; }
+    #edit-panel.edit-parent-node button:not(#btn-add-nodes) { display: none; }
+    #new-nodelist {
+      display: inline-block;
+      list-style:none;
+      margin-top: -0.5rem;
+      padding: 0;
+      vertical-align: text-top;
+    }
+    #new-nodelist>* { padding-bottom: 4px; }
+    .radio-panel input[type='radio'] { height: 1.25rem; width: 1.25rem; vertical-align: text-bottom; }
+    #btn-add-nodes { margin-left: 20px; }
+	
+	
+	.btn_tree {
+    box-sizing: border-box;
+    padding: 2px;
+    width: 130px;
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: bold;
+    height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: rgba(217, 83, 79, 0.8);
+    color: #fff;
+    border-radius: 4px 4px 0 0;
+}
+
+.img_size img {
+    width: 130px;
+}
+
+.btn-primary {
+    width: 130px !important;
+}
+.form-group input {
+    width: 130px;
+}
+.tree_h1 h1{
+	font-size: 16px;
+padding: 2px 0px;
+	}
+	
+.cl{
+	clear:both;}
